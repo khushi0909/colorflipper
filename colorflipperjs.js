@@ -13,6 +13,7 @@ btn.addEventListener("click",function () {
     const main=document.querySelector('main')
     main.style.backgroundColor = myArr[randomNumber];
     colortext.textContent = myArr[randomNumber];
+    colortext.style.color = myArr[randomNumber];
 });
 function getRandomNumber(){
     return Math.floor(Math.random()*myArr.length);
